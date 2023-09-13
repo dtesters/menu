@@ -1,0 +1,83 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply general styles to elements */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Define specific styles for sections */
+.home-section {
+    background-image: url('background1.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.about-section {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio-section {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Add animations or other styles as needed */
